@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ForceAspectRatio : MonoBehaviour
 {
-    public float targetAspect = 16f / 9f; // 目标宽高比
+    public float targetAspect = 16f / 9f;
 
     void Start()
     {
@@ -11,7 +11,7 @@ public class ForceAspectRatio : MonoBehaviour
         float scaleHeight = windowAspect / targetAspect;
         Camera camera = GetComponent<Camera>();
 
-        if (scaleHeight < 1.0f) // 屏幕比目标宽，上下加黑边
+        if (scaleHeight < 1.0f) 
         {
             Rect rect = camera.rect;
             rect.width = 1.0f;
@@ -20,7 +20,7 @@ public class ForceAspectRatio : MonoBehaviour
             rect.y = (1.0f - scaleHeight) / 2.0f;
             camera.rect = rect;
         }
-        else // 屏幕比目标窄，左右加黑边
+        else
         {
             float scaleWidth = 1.0f / scaleHeight;
             Rect rect = camera.rect;

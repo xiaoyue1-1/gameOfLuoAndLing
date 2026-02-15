@@ -7,13 +7,12 @@ public class ChangeFacing : MonoBehaviour
 {
     private Vector2 lastPosition;
     private Animator animator;
-    // Start is called before the first frame update
+
     void Start()
     {
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
@@ -22,7 +21,7 @@ public class ChangeFacing : MonoBehaviour
         Vector2 currentPosition = transform.position;
         Vector2 movement = currentPosition - lastPosition;
 
-        if (true) // ºöÂÔÎ¢Ð¡ÒÆ¶¯
+        if (true) 
         {
             Vector2 direction = movement.normalized;
         }
