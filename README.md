@@ -1,17 +1,12 @@
+# 游戏名称（开发中）
 
+这是一个正在开发中的免费小游戏，仅供开发小组成员交流。
 
+## 第三方资源
 
-## 许可证声明
+本项目使用了 [DOTween](http://dotween.demigiant.com) 动画插件，其版权归 Daniele Giardini - Demigiant 所有，并遵循 [Artistic License](http://dotween.demigiant.com/license.php)。我们保留了 DOTween 附带的原始 readme.txt 和所有版权声明。
 
-### 本项目使用的第三方资源
+## 版权声明
 
-#### DOTween (动画引擎)
-- **版权持有者**: Daniele Giardini - Demigiant
-- **许可证类型**: Artistic License
-- **许可证原文**: http://dotween.demigiant.com/license.php
-- **使用条件**: 
-  - 本项目使用的是DOTween标准版本，未作任何修改
-  - 完整保留原始版权声明和readme.txt文件
-  - 详细版权信息请见 `/Assets/DOTween2/readme.txt`
-
-（正在开发，部分声明还没写好，见谅
+懒得写
+如有任何问题，请联系qq号3594469083 。
