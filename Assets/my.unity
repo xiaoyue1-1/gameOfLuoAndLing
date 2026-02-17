@@ -306,6 +306,8 @@ MonoBehaviour:
   tmpHealthText: {fileID: 417713915}
   currentHealth: 100
   maxHealth: 100
+  change: 0
+  healthChange: 0
 --- !u!224 &377524489 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2597006637894580076, guid: 03b51a547ad2cef44ad4b5c91cae25c3, type: 3}
